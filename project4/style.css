@@ -1,0 +1,225 @@
+@charset "utf-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2023-03-19 11:10:11
+ * @version $Id$
+ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    margin: 100px auto;
+    width: 346px;
+    height: 530px;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+.top-title {
+    float: left;
+    width: 58px;
+    height: 48px;
+    margin: 12px 0 0 20px;
+    text-align: center;
+    color: #656565;
+
+}
+
+.useorange {
+    color: #F64711;
+
+}
+
+.xuanchuan {
+    height: 31px;
+    margin-top: 71px;
+    background-color: #FFE5DD;
+}
+
+.xuan {
+    line-height: 31px;
+    margin-left: 92px;
+    font-size: 16px;
+    color: #F64711;
+}
+
+
+.san {
+    display: inline-block;
+    width: 17px;
+    height: 21px;
+    margin-left: 28px;
+    background-position: 0px 4px;
+    background-image: url(san.png);
+    background-repeat: no-repeat;
+}
+
+.menu {
+    height: 22px;
+    margin: 17px 0;
+
+}
+
+.menu-choiece {
+    float: left;
+    width: 32px;
+    height: 22px;
+    margin-left: 32px;
+    font-size: 16px;
+    color: #656565;
+}
+
+.menu-choiece:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+.hot {
+    height: 30px;
+
+}
+
+.hot-word1 {
+    float: left;
+    width: 130px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+    margin-right: 25px;
+    color: #F64711;
+}
+
+.hot-word2 {
+    float: left;
+    width: 130px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+    margin-right: 25px;
+    overflow: hidden;
+    color: #656565;
+}
+
+.funtion {
+    height: 91px;
+    margin-top: 10px;
+}
+
+.funtion-box {
+    float: left;
+    width: 84px;
+    height: 90px;
+    font-size: 16px;
+    color: #656565;
+    text-align: center;
+}
+
+.funtion-box:hover {
+    border-top: 2px solid #F64711;
+    border-left: 2px solid #F64711;
+    border-right: 2px solid #F64711;
+    border-bottom: 2px solid transparent;
+    color:#F64711;
+}
+
+.phone {
+    width: 84px;
+    height: 55px;
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-position: 30px 14px;
+}
+
+.tavel {
+    width: 84px;
+    height: 55px;
+    background-image: url(travel.png);
+    background-repeat: no-repeat;
+    background-position: 32px 16px;
+}
+
+.car {
+    width: 84px;
+    height: 55px;
+    background-image: url(car.png);
+    background-repeat: no-repeat;
+    background-position: 28px 12px;
+}
+
+.game {
+    width: 84px;
+    height: 55px;
+    background-image: url(game.png);
+    background-repeat: no-repeat;
+    background-position: 26px 13px;
+}
+
+
+.bottombox {
+    margin-top: 1px;
+    height: 206px;
+    border: 2px solid #F64711 ;
+}
+
+
+
+.charge {
+    height: 40px;
+    margin-top: 3px;
+
+}
+
+.charge-box {
+    float: left;
+    margin: 10px 0;
+    margin-left: 28px;
+    color: #656565;
+}
+
+.cha {
+    width: 346px;
+    height: 20px;
+    background-image: url(cha.png);
+    background-repeat: no-repeat;
+    background-position:320px;
+}
+
+.charge-box:hover {
+     color:#F64711;
+}
+
+.input-box {
+    margin-left: 16px;
+    width: 220px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.price {
+    margin: 8px 0;
+    margin-left: 24px;
+    color: #656565;
+}
+
+.price-num {
+    color:#F64711;
+    font-weight: bold;
+}
+
+.charge-btn {
+    width: 82px;
+    height: 35px;
+    margin-left: 16px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    color: white;
+    background-color:#F64711;;
+}

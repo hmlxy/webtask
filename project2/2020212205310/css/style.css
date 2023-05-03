@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2023-03-03 16:18:38
+ * @version $Id$
+ */
+li {
+    list-style: none;
+}
+
+.top {
+    width: 1064px;
+    height: 70px;
+    margin: 10px auto;
+    background-color: #ffffff;
+}
+
+.top .jiantou {
+    width: 10px;
+    height: 16px;
+    margin-left: 4px;
+    margin-top: 20px;
+    background-color: #777777;
+}
+
+.top li {
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #777777;
+}
+
+.top .first {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #292929;
+}
+
+.box {
+    width: 1064px;
+    height: 520px;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+.box li {
+    float: left;
+    width: 237px;
+    height: 440px;
+    background-color: #ffffff;
+}
+
+
+.box .left {
+    width: 480px;
+    height: 440px;
+    margin-left: 20px;
+}
+
+.box .left .title-one {
+    font-size: 16px;
+    color: #77;
+}
+
+.box .left .title-two {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    color: #292929;
+}
+
+.box .left .zhengwen {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #777777;
+}
+
+.box .left .name {
+    font-size: 14px;
+    margin-top: 16px;
+    color: #292929;
+}
+
+.box .left .time {
+    font-size: 14px;
+    margin-top: 2px;
+    color: #777777;
+}
+
+.box .left .dance {
+    margin-top: 40px;
+}
+
+span.biaoqian{
+    margin-left: 290px;
+}
+
+.box .picture {
+    width: 154px;
+    margin-left: 32px;
+}
+
+
+
+
+.box .picture .one-img {
+    margin: auto;
+}
+
+.box .picture .two-img {
+    margin-top: 60px;
+}
+
+.box .picture .three-img {
+    margin-top: 60px;
+}
+
+.box .mid {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 125px;
+}
+
+.box .right {
+    width: 266px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.right .title{
+    width: 266px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #292929;
+
+}
+
+
+
+.right .line {
+    margin-top: 4px;
+    color: #777777;
+}
+
+ .right .zhengwen {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #292929;
+}
+
+.right .name {
+    font-size: 14px;
+    margin-top: 16px;
+    color: #292929;
+}
+
+ .right .time {
+    font-size: 14px;
+    margin-top: 2px;
+    color: #777777;
+}
+
+.box .right .right-dance {
+    margin-top: 30px;
+}

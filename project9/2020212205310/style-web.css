@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2023-04-29 20:12:15
+ * @version $Id$
+ */
+
+body {
+    background-color: grey;
+}
+
+/*.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+    padding: 0;
+}*/
+
+
+.container-web {
+    width: 1000px;
+    background-color: #fff;
+}
+
+.container-top {
+    font-size: 20px;
+    color: #fff;
+    height: 72px;
+    background-color: #008DEF;
+}
+
+.top-enter {
+    margin-top: 14px;
+}
+
+.homepage {
+    width: 60px;
+    border-radius: 4px;
+    background-color: rgba(0, 105, 180, .5);
+}
+
+.top-login {
+    text-align: right;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.container-web .top-serch {
+    margin-top: 0;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: grey;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+}
+
+.body-width {
+    width: 830px;
+    margin: auto 50px;
+}
+
+.container-banner {
+    height: 220px;
+    margin: 20px 50px;
+}
+
+
+.banner-lf {
+    height: 220px;
+    background-color: #666666;
+}
+
+
+.banner-rt {
+    width: 256px;
+    background-color: #F4F4F4;
+}
+
+.banner-rt-btn {
+    margin-top: 20px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #009DFF;
+}
+
+.banner-rt-top {
+    border-bottom: 1px dashed #999;
+    height: 120px;
+}
+
+.banner-rt-bottom {
+    margin-top: 20px;
+}
+
+.container-body-tle {
+    height: 32px;
+    line-height: 32px;
+    font-size: 28px;
+}
+
+.container-body-tle .col-1:last-child {
+    font-size: 16px;
+}
+
+.container-body {
+    text-align: left;
+    font-size: 24;
+}
+
+
+.container-body .progra {
+    text-indent: 2em;
+    word-break: break-word;
+    color: grey;
+}
+
+.container-body .tircle {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.article-rt {
+    margin-top: 4px;
+}
+
+.article-rt-pic {
+    height: 90px;
+    background-color: grey;
+}
+
+.ppt-pic {
+    width: 156px;
+    height: 84px;
+    background-color: grey;
+}
+
+.article {
+    margin-top: 40px;
+}
+
+.ppt {
+    margin-top: 20px;
+}
+
+.ppt-tag {
+    margin-top: 4px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFF;
+    height: 20px;
+    border-radius: 2PX;
+    background-color: #FF7432;
+}
+
+.ppt-comment {
+    font-size: 12px;
+}
+
+.long-art-pic {
+    margin-top: 20px;
+    width: 244px;
+    height: 128px;
+    background-color: grey;
+}
+
+.long-art-comment {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.vedio-pic {
+    position: relative;
+    margin-top: 20px;
+    width: 154px;
+    height: 86px;
+    background-color: grey;
+}
+
+.vedio-pic img {
+    position: absolute;
+    left: 4px;
+    top: 50px;
+}
+
+.article-detail-pic {
+    margin-top: 20px;
+    width: 154px;
+    height: 88px;
+    background-color: grey;
+}
+
+.article-detail-word {
+    margin-top: 20px;
+}
+
+.article-detail-word p {
+    font-size: 24px;
+}
+
+.article-detail-word .descri {
+    font-size: 12px;
+    word-break: break-word;
+}
+
+.article-detail-comment {
+    margin-top: 20px;
+    margin-left: -10px;
+    font-size: 12px;
+}
+
+.sign-active {
+    position: relative;
+    margin-top: 44px;
+}
+
+.sign-active {
+    font-size: 12px;
+    color: grey;
+    border-bottom: 4px solid #0092F1;
+}
+
+.sign-active-pic {
+    width: 240px;
+    height: 90px;
+    background-color: grey;
+}
+
+.sign-active-tle {
+    font-size: 20px;
+    color: black;
+}
+
+.sign-active-tag {
+    transform: rotate(45deg) translate(20px,-10px);
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    left: 160px;
+    width: 100px;
+    height: 30px;
+    background-color: #0092F1;
+}
+
+
+
